@@ -1,0 +1,337 @@
+body{
+    margin: 10px 200px ;
+    font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: #747474;
+    -webkit-font-smoothing: antialiased;
+
+}
+header{
+    position: relative;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: sticky;
+    top:0;
+    background-color: white;
+    z-index:1;
+    margin:0 -200px;
+    padding:0 200px
+}
+.logo-docplanner{
+    height: 30px;
+    cursor: pointer;
+    
+       
+  }
+  .nav-menu{
+    display:flex;
+    justify-content:space-between;   
+    width: 25%;  
+  }
+body li{
+    list-style: none;
+     cursor: pointer;
+     
+}
+header a {
+    text-decoration: none;
+
+}
+.dropbtn{
+  color:#747474;
+}
+.dropbtn:hover{
+  color:#00b39b;
+}
+.dropdown{
+  
+  display: inline-block;
+
+}
+.dropdown-content {
+    
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  right:0;
+  padding-top: 10px;
+  
+  min-width: 220px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: #747474;
+  text-decoration: none;
+  display: block;
+  
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.healthcare-description{
+  display: flex;
+  justify-content: space-between;
+  align-items:baseline;
+  
+  
+
+}
+.healthcare-description p{
+  
+    line-height: 1.75;
+    font-size: 16px;
+    width: 48%;
+    
+}
+.lead__logo{
+  
+  display: block;
+  margin: auto;
+}
+h1{
+  color:#00b39b;
+  text-align: center;
+  font-size: 2.125rem;
+
+}
+.main-service h2,span {
+  color:white;
+}
+
+.main-service{
+  display: flex;
+  justify-content: space-between;
+  height: 400px;
+  padding-top:100px;
+
+}
+.patient-service{
+  position: relative;
+  background-color: #00ccb1;
+  border-radius: 10px;
+  width: 45%;
+  padding-top: 30px;
+  overflow: hidden;
+
+}
+.doctor-service{
+  position: relative;
+  background-color: #3d83df;
+  border-radius: 10px;
+  width:45%;
+  padding-top: 30px;
+  overflow: hidden;
+
+ 
+}
+.image-service1{
+  height: 250px;
+  position: absolute;
+  margin-right:-90px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  
+
+}
+.image-service2{
+  height: 250px;
+  position: absolute;
+  margin-left:190px;
+  margin-bottom: 0px;
+  padding-top: 30px;
+  
+
+}
+
+
+.link-company svg{
+fill:hsla(0,0%,67%,.7);
+height:25px;
+}
+.main-company h2{
+  color:#00b39b;
+   width: 30%; 
+}
+
+.main-company svg:hover{
+  fill:#00b39b;
+}
+.main-company{
+  display: flex;
+  
+  padding: 50px;
+  
+}
+.link-company{
+  display: flex;
+
+  
+  flex-wrap: wrap;
+
+   width: 100%;
+
+}
+
+.button-select-country{
+  height:40px;
+  color:#747474;
+  text-align: center;
+  width:180px;
+  border:0;
+}
+.main-platform{
+background:  #e5faf8;
+background-image: linear-gradient(-45deg,rgba(0,204,177,.01) 5%,rgba(61,199,223,.1));;
+
+background-image: url("https://www.docplanner.com/img/logo.png");
+
+background-repeat: no-repeat;
+
+background-position:10px 150px;
+height: 500px;
+margin: -10px -200px;
+
+
+}
+.main-platform-content{
+  margin: 10px 200px ;
+  display: flex;
+
+}
+.plateform-col1{
+  width: 50%;
+}
+.plateform-col2{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+}
+.item{
+  background:white;
+  width:220px;
+  height: 200px;
+  text-align: center;
+  
+}
+
+
+.plateform-item1{
+  
+  display: flex;
+  
+  flex-direction: column;
+
+  padding-top: 40px; 
+  
+  
+}
+.plateform-item2{
+  
+   display: flex;
+   flex-direction: column;
+   
+   padding-top: 20px;
+   
+}
+.plateform-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+
+
+
+
+
+body h1,h2,h3,h4{
+
+  color:#00b39b;
+}
+.team-description{
+  margin: auto;
+  width: 50%;
+  padding-top: 80px;
+  text-align: center;
+  
+
+}
+.team-country{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-top: 80px;
+  
+  
+  
+}
+.team-item{
+  position: relative;
+  margin-bottom: 30px;
+  
+
+}
+
+  
+
+.btn-link{ 
+
+background:#3d83df;
+border-radius: 4px;
+color:#fff;
+text-align: center;
+font-style: 5px;
+cursor: pointer;
+text-transform: uppercase;
+height: 30px;
+width:130px;
+
+
+
+}
+.team-item div{
+  margin-top: 15px;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-item{
+  position: relative;
+  width:fit-content;
+display: flex;
+flex-direction: column;
+  align-items: center;
+ line-height: 30px;
+}
+footer{
+  padding-top: 100px;
+  text-align: center;
+  font-size: 12px;
+}
+footer a{
+  text-decoration: none;
+  color:#3d83df;
+  cursor: pointer;
+  
+}
+main a{
+  color:#747474;
+  text-decoration: none;
+  cursor: pointer;
+  font-size:16px ;
+}
+.image-click{
+  cursor: pointer;
+  width: 90%;
+}
+.team-item:hover{
+  box-shadow:  1px 3px   grey;
+}
